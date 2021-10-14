@@ -6,10 +6,10 @@
 5. error, because i is defined by let, which only exists in the for loop block, so it can't be access from outside the loop.
 6. error, because discountedPrice is defined by let, which only exists in the for loop block, so it can't be access from outside the loop.
 7. it will print the finalPrice, because it is defined in this function and outside the loop, so the scope is within the whole function.
-8. 50, 100, 150],  because discounted is defined in this function and outside the loop, so the scope is within the whole function.
+8. [50, 100, 150],  because discounted is defined in this function and outside the loop, so the scope is within the whole function.
 9. error, because i is defined by let, which only exists in the for loop block, so it can't be access from outside the loop.
 10. It will print length, because the scope of it is the whole funtion and it hasn't been modified after declared.
-11. It will print discounted, because it hasn't been reassigned. Also, the scope of discountedPrice is within each loop, so it will create new one for each loop.
+11. It will return discounted, because it hasn't been reassigned. Also, the scope of discountedPrice is within each loop, so it will create new one for each loop.
 12. - student.name
     - student['Grad Year']
     - student.greeting()
